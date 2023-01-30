@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Pre examen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" >
+
+                <h1 class="text-center">Buscar usuario por id</h1>
+
+                <form>
+                    <div class="form-group">
+                        <label for="id-usuario"> Id Usuario: </label>
+                        <input type="text" class="form-control" id="id-usuario" placeholder="id del usuario">
+                    </div>
+
+                    <button class="btn btn-primary" type="submit" id="btnBuscar">Buscar</button>
+                    <button class="btn btn-danger" id="btnLimpiar">Limpiar</button>
+                </form>
+                <br>
+
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="usuario">Usuario: </label>
+                        <input type="text" class="form-control" id="usuario" placeholder="usuario" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo: </label>
+                        <input type="text" class="form-control" id="correo" placeholder="Correo" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="calle">Calle: </label>
+                        <input type="text" class="form-control" id="call" placeholder="Calle" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="numero">Numero: </label>
+                        <input type="text" class="form-control" id="numero" placeholder="Numero" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad: </label>
+                        <input type="text" class="form-control" id="ciudad" placeholder="Ciudad" disabled>
+                    </div>
+                  </form>
+                  
+                <div class="info-usuario">
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
